@@ -46,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Passionate finance enthusiast with a strong interest in Equity Research",
+  subTitle: "Passionate finance enthusiast with a strong interest in Equity Research.Created and manage The Humane Opportunist blog, sharing experiences and findings in investing, with a focus on ethical and sustainable practices. Utilize social media platforms to promote blog and engage with audience.",
   skills: [
     emoji(
       "⚡ Intermediate knowledge of Microsoft Excel"
@@ -61,57 +61,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+   
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "icon-candlestick-chart"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fa-solid fa-money-bill"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "",
+      fontAwesomeClassname: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
