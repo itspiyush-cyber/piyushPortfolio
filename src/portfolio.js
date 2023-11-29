@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Piyush Anand",
+  title: "Hi all, I'm Piyush Anand",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am a passionate finance enthusiast with a strong interest in Equity Research.Since 2018, I've actively managed my own investment portfolio, continuously expanding my financial knowledge."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/itspiyush-cyber",
+  linkedin: "https://www.linkedin.com/in/piyush-anand-9279411b4/",
+  gmail: "piyushanand811311@gmail.com",
+  Website: "https://www.thehumaneopportunist.com/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +46,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Passionate finance enthusiast with a strong interest in Equity Research",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Intermediate knowledge of Microsoft Excel"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Worked on SAP during various Internal Audits"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Attended the 6th value Investors Pioneers summit conducted by CFA Society India."
     )
   ],
 
@@ -66,11 +63,11 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "icon-candlestick-chart"
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fa-solid fa-money-bill"
     },
     {
       skillName: "sass",
@@ -126,23 +123,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "ICAI",
+      logo: require("./assets/images/icailogo.png"),
+      subHeader: "CPT",
+      duration: "JUN-2017 - April 2019",
+      desc: "Performance - 134",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Delhi University ",
+      logo: require("./assets/images/dtulogo.png"),
+      subHeader: "Bachelor of Commerce",
+      duration: "2021 ",
+      desc: "Scored 6.636 CGPA",
+      descBullets: []
     }
   ]
 };
@@ -153,15 +149,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Microsoft Excel", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "SAP ",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Internal Audits",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +170,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Audit Assistant ",
+      company: "Komandoor & Co. LLP",
+      companylogo: require("./assets/images/komandoorlogo.jpg"),
+      date: "Jan 2023 – Present",
+      desc: "Core member of the team involved in internal audit of inventory management, general financial accounting control environment, revenue management and expenditure management",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+       
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Concurrent Audit",
+      company: "Komandoor & Co. LLP",
+      companylogo: require("./assets/images/komandoorlogo.jpg"),
+      date: "Jan 2023 – Present",
+      desc: "Performed concurrent Audit at a Co-operative Bank."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Stock Audit ",
+      company: "Komandoor & Co. LLP",
+      companylogo: require("./assets/images/komandoorlogo.jpg"),
+      date: "Jan 2023 – Present",
+      desc: "Successfully executed the stock audit assigned by banks.This involves verifying the accuracy of a borrower's reported inventory or stock holdings, which is often used as collateral for loans or credit facilities."
     }
   ]
 };
@@ -252,9 +247,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Head of Budget Department of Commerce Society (2019-2021)",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Managed funds & resources of the Society required for various events.Worked as a part of a team to organize funds required for fests and events, collaborated with various companies and businesses to secure sponsorships. Managed sponsorship budgets and created reports to track expenses and revenue.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
